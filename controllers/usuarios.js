@@ -1,7 +1,6 @@
 const { response } = require('express')
 
 const getUsuarios = (req, res = response) => {
-
     const { q, nombre } = req.query
     res.json({
         msg: 'get api - controlador',
